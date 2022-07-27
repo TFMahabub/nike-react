@@ -28,6 +28,24 @@
       font-family: bebas neue, sans-serif;
       font-weight: 700;
     }
+    .banner-height{
+      height-100vh
+    }
+    .roboto-400{
+      font-family: roboto, san-serif;
+      font-weight: 400;
+    }
+    .roboto-500{
+      font-family: roboto, san-serif;
+      font-weight: 500;
+    }
+    .roboto-700{
+      font-family: roboto, san-serif;
+      font-weight: 700;
+    }
+    .font-color{
+      color: #FA804C;
+    }
 
   </style>
 </head>
@@ -38,28 +56,28 @@
   
   <!-- -------------Navbar------------- -->
 
-  <section class="header-background-color">
-    <nav class="navbar navbar-expand-lg">
+  <section class="header-background-color border">
+    <nav class="navbar navbar-expand-lg ">
       <div class="container">
         <a class="navbar-brand" href="#">
-          <img class="" src="icons/Logo.png" alt="" width="270">
+          <img class="" src="icons/Logo.png" alt="" width="320">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse flex-grow-0" id="navbarNav">
-          <ul class="navbar-nav me-auto">
+          <ul class="navbar-nav me-auto roboto-500">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Features</a>
+              <a class="nav-link" href="#">Product</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Pricing</a>
+              <a class="nav-link" href="#">About Us</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled">Disabled</a>
+              <a class="nav-link" href="#">Contact Us</a>
             </li>
           </ul>
         </div>
@@ -69,15 +87,17 @@
 
 
   <!-- ----------------------Banner-section--------------------- -->
-  <section class="header-background-color">
-    <div class="container h-100vh">
-      <div class="row border">
+  <section class="header-background-color vh-100">
+    <div class="container py-5">
+      <div class="row">
+        <!-- ---img--- -->
         <div class="col-lg-6 col-sm-12">
           <img src="images/Group 33092.png" alt="" width="400">
         </div>
+        <!-- ---text--- -->
         <div class="col-lg-6 d-flex flex-column justify-content-center">
           <div class=" border">
-            <h1 class="bebas-font"><span>Nike React</span> <br> Infinity Run 2</h1>
+            <h1 class="bebas-font"><span class="font-color">Nike React</span> <br> Infinity Run 2</h1>
             <p>Lorem Ipsum is simply dummy text of the printing 
             and typesetting industry.</p>
             <div>
